@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* Base Styles */
+body {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  background: linear-gradient(#ec8d52, #fea46c);
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  list-style: disc;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* ----- Header Styles ----- */
+.header {
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 5rem;
+  margin-bottom: 15px;
+}
+
+.header .name {
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+/* ----- Dog Section Styles ----- */
+.dog-section {
+  padding: 20px;
+}
+
+.dog-section .container {
+  display: flex;
+  gap: 20px;
+}
+
+.dog-section .container > * {
+  flex: 1;
+}
+
+.dog-section .left-col {
+  text-align: center;
+}
+
+.dog-section .left-col h2,
+.dog-section .right-col h2 {
+  font-size: 2.5rem;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+.dog-section .left-col select {
+  font-size: 2.2rem;
+  padding: 5px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+.dog-section .left-col .img-container {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.left-col .img-container img {
+  border-radius: 8px;
+}
+
+.dog-section .right-col ul {
+  padding-left: 17px;
+}
+
+.right-col ul li {
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+.right-col ul li span {
+  font-weight: 600;
+}
+
+/* ----- Utility Classes ----- */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  /* border: 2px solid black; */
+}
+
+/* Media Queries */
+@media screen and (max-width: 770px) {
+  .dog-section .container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .dog-section .left-col .img-container {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .header h1 {
+    font-size: 4rem;
+  }
+
+  .header .name {
+    font-size: 3rem;
+  }
+
+  .dog-section .left-col .img-container {
+    width: 250px;
+  }
+}
