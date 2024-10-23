@@ -22,4 +22,4 @@ If/when I improve this project, I would like to find a better way of coming up w
 
 ## Lessons Learned:
 
-I learned how to use an API and how they work. Learning how to make calls to an API will help me tremendously going forward. Especially for larger projects that I want to build. I also had some practice taking a large problem and breaking it down into smaller sub problems.
+I learned how to use an API and how they work. Learning how to make calls to an API will help me tremendously going forward. Especially for larger projects that I want to build. I also had some practice taking a large problem and breaking it down into smaller sub problems. Also had more practice on how to dynamically add elements to the DOM.
