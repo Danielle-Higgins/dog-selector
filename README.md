@@ -14,7 +14,7 @@ Pick you favorite breed from the drop down menu! It will show you a cute picture
 
 This project is built using the Dog CEO API. I built the startup code using simple HTML and CSS and used Javascript to make calls to the API. I first populated the select box using the "list all breeds" url which I made calls to, to get the full list of breeds. I only wanted the keys of the object that I got back from the call so I used Object.keys() to get an array of keys. I then dynamically created option elements by looping through the array of breeds. I then wanted the image to change when the user selects a breed from the select box. So, I used the "breeds list" url and made calls to it in order to get the path to the image of each breed the user selects. Lastly, I stored the characteristics of the dogs in an object literal where I created properties of the characteristics and methods to get those characteristics.
 
-Dog CEO API: <a target="_blank" href="https://dog.ceo/dog-api/"></a>
+<a target="_blank" href="https://dog.ceo/dog-api/">Dog CEO API</a>
 
 ## Optimizations
 
