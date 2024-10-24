@@ -18,7 +18,7 @@ Here is a link to the API I used: <a target="_blank" href="https://dog.ceo/dog-a
 
 ## Optimizations
 
-If/when I improve this project, I would like to find a better way of coming up with the characteristics. Maybe there's an characteristics API out there that I can use intead of hard coding a bunch of each characteristic. An optimization that I used was using the fisher-yates shuffle to shuffle an array. It uses less time versus other shuffle algorithms that are out there.
+If/when I improve this project, I would like to find a better way of coming up with the characteristics. Maybe there's an characteristics API out there that I can use intead of hard coding a bunch of each characteristic. Also I would fix the typo where the dog's age could be zero. An optimization that I used was using the fisher-yates shuffle to shuffle an array. It uses less time versus other shuffle algorithms that are out there.
 
 ## Lessons Learned:
 
